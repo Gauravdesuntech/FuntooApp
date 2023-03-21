@@ -1,0 +1,27 @@
+import React from "react";
+
+export default React.createContext({
+	userData: null,
+	setUserData: (data) => {},
+	unsetUserData: () => {},
+	setCartQuantity:(data)=>{},
+	unsetCartQuantity:()=>{},
+	cartQuantity: [],
+	setWishListQuantity:(data)=>{},
+	unsetWishListQuantity:()=>{},
+	wishListQuantity: [],
+	oldGameData: [],
+	setOldGameData:(data)=>{},
+	tokenData: [],
+	setTokenData:(data)=>{},
+	unsetTokenData:()=>{},
+	totalUnreadChatQuantity: 0,
+	setTotalUnreadChatQuantity: (data) => {},
+	filterDetails:null,
+	setFilterDetails: (data) => {},
+	unsetFilterDetails: (data) => {},
+	fileSetting:null,
+	setFileSetting: (data) => {},
+	paymentTerm:null,
+	setPaymentTerm: (data) => {},
+});

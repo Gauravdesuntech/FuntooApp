@@ -1,0 +1,23 @@
+diff --git a/node_modules/react-native-image-slider-box/dist/SliderBox.js b/node_modules/react-native-image-slider-box/dist/SliderBox.js
+index 8f6d67c..4d775c2 100644
+--- a/node_modules/react-native-image-slider-box/dist/SliderBox.js
++++ b/node_modules/react-native-image-slider-box/dist/SliderBox.js
+@@ -90,7 +90,8 @@ export class SliderBox extends Component {
+           key={index}
+           underlayColor={underlayColor}
+           disabled={disableOnPress}
+-          onPress={this.onCurrentImagePressedHandler}
++          // onPress={this.onCurrentImagePressedHandler}
++          onPress={()=>this.props.goTo(item.id)}
+           activeOpacity={activeOpacity}
+         >
+           <ImageComponent
+@@ -102,7 +103,7 @@ export class SliderBox extends Component {
+               },
+               ImageComponentStyle,
+             ]}
+-            source={typeof item === "string" ? { uri: item } : item}
++            source={typeof item === "object" ? { uri: item.image } : item}
+             resizeMethod={resizeMethod || "resize"}
+             resizeMode={resizeMode || "cover"}
+             //onLoad={() => {}}

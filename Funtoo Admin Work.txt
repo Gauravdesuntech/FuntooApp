@@ -1,0 +1,45 @@
+funtoo Admin
+
+......(02.08.2022).......
+
+Home.js
+GamesForTagAndSubCat.js
+SliderBox.js
+
+ .........(03.08.2022).........
+
+APIServices.js
+EventEnquiryDetail.js
+ItemDiscount.js
+
+.............(04.08.2022).......
+
+EventEnquiryDetail.js
+util.js
+EditOrderGames.js
+
+.............(05.08.2022).......
+
+EventEnquiryDetail.js
+Header.js
+
+.......(08.08.2022)............
+ChatDetails.js
+Chat.js
+google-services .json
+
+.........(09.08.2022)...........
+ChatDetails.js
+Chat.js
+
+...........
+1)EventDetails.js
+2)chat-section
+3)EventEnquiryDetail.js
+4)util.js
+5)Loader.js
+
+.......22.089.22............
+Config.js
+AddEmployee.js
+AddDesignationMaster.js

@@ -1,0 +1,20 @@
+diff --git a/node_modules/react-native-progress-bar-animated/src/AnimatedProgressBar.js b/node_modules/react-native-progress-bar-animated/src/AnimatedProgressBar.js
+index 29a0f82..29c17b1 100644
+--- a/node_modules/react-native-progress-bar-animated/src/AnimatedProgressBar.js
++++ b/node_modules/react-native-progress-bar-animated/src/AnimatedProgressBar.js
+@@ -61,6 +61,7 @@ class ProgressBar extends React.Component {
+       easing: Easing[this.props.barEasing],
+       toValue: toValue > 0 ? toValue : 0,
+       duration: this.props.barAnimationDuration,
++      useNativeDriver: false,
+     }).start();
+   }
+ 
+@@ -68,6 +69,7 @@ class ProgressBar extends React.Component {
+     Animated.timing(this.backgroundAnimation, {
+       toValue: 1,
+       duration: this.props.backgroundAnimationDuration,
++      useNativeDriver: false,
+     }).start();
+   }
+ 

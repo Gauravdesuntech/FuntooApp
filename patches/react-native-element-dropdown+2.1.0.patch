@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-element-dropdown/src/components/Dropdown/styles.ts b/node_modules/react-native-element-dropdown/src/components/Dropdown/styles.ts
+index 4524ff2..6534be9 100644
+--- a/node_modules/react-native-element-dropdown/src/components/Dropdown/styles.ts
++++ b/node_modules/react-native-element-dropdown/src/components/Dropdown/styles.ts
+@@ -46,6 +46,8 @@ export const styles = StyleSheet.create({
+   textItem: {
+     flex: 1,
+     fontSize: 16,
++    color:'#444',
++    opacity:0.6
+   },
+   icon: {
+     width: 20,
